@@ -35,6 +35,12 @@ function updateState(chestId, fruitId) {
     state[chestId] = fruitId;
     console.log('State updated');
     console.log(state);
+    updateResult();
+}
+
+function updateResult() {
+    const div = document.getElementById('result');
+    div.innerText = JSON.stringify(state);
 }
 
 const state = {
