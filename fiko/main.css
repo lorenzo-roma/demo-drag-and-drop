@@ -1,0 +1,46 @@
+.fruit {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.chest {
+  background-image: url("./assets/chest.png");
+  height: 150;
+  width: 150;
+  margin: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cherry {
+  background-image: url("./assets/cherries.png");
+}
+
+#banana {
+  background-image: url("./assets/banana.png");
+}
+
+#apple {
+  background-image: url("./assets/apple.png");
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

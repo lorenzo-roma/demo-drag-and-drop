@@ -1,0 +1,28 @@
+
+<html>
+    <head>
+    <title>
+        Drag & Drop
+    </title>
+    <script src="drag&drop.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<div class="row">
+    <div class="column">
+        <div class="chest" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div draggable="true" class="fruit" ondragstart="drag(event)" id="apple"></div>
+        </div>
+        <div class="chest" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div draggable="true" class="fruit" ondragstart="drag(event)" id="banana"></div>
+        </div>
+        <div class="chest" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div draggable="true" class="fruit" ondragstart="drag(event)" id="cherry"></div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="chest" id="chest-1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="chest" id="chest-2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="chest" id="chest-3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+</div>
+</html>

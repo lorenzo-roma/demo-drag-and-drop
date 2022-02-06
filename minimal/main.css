@@ -1,0 +1,14 @@
+.fruit {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  background-color: aquamarine;
+  border: solid 1px black;
+}
+
+.chest {
+  height: 150;
+  width: 150;
+  margin: 20px;
+  background-color: red;
+}
